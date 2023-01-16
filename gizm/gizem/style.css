@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ff1616;
+    
+}
+.eow{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: #fff 10px dashed;
+}
+.air{
+    display: flex;
+    justify-content: space-between;
+}
+.imglog{
+    width: 130px;
+    height: auto;
+    border-radius: 80px 80px 80px 30px;
+    margin-left: 20px;
+}
+form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardi{
+    background-color: #e56233;
+
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 12px 10px #e56233;
+
+    border-radius: 80px 80px 80px 30px;
+    margin-top:150px;
+}
+
+label{
+
+    color: #000;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    flex-direction: row;
+    float: left;
+    padding: 7px;
+    justify-content: space-between;
+    display: flex;
+}
+ul li a{
+    
+    border-radius: 80px 80px 80px 30px;
+    text-align: center; 
+    padding: 38px;
+    background-color: #e56233;
+    color: #000;
+        box-shadow: 10px 10px 20px #e56233;
+
+
+}
+ul li a:hover{
+    background-color: #fff;
+    transition:400ms  ease-in-out;
+    box-shadow: 10px 10px 20px #fff;
+
+}
+
+.lol1{
+
+    color: #fff;
+    background-color: #9fc834;
+    margin: 10px;
+    border: 2px dashed #000 ;
+    padding: 5px;
+    border-radius: 190px 0 0 190px;
+    width: 200px;
+}
+.lol{
+    color: #000;
+    background-color: #9fc834;
+    margin: 10px;
+border: 2px dashed #000 ;
+    padding: 5px;
+    border-radius: 190px 0 0 190px;
+    width: 300px;
+}
+.lol1:focus {
+    
+    background-color: #e56233;
+}
+.lol:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transition:400ms  ease-in-out;
+}
+.lol:focus{
+    
+    background-color: #9fc834;
+}
+.navicerk{
+    margin:20 60px;
+    font-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baslng{
+    font-size: 60px;
+    color: #9fc834;
+   
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-left: 120px;
+    
+}
+
+.hedcl{
+    display: flex;
+    margin: 40px;
+}
+.imgmainpa{
+    width: 550px;
+    display: flex;
+    justify-self: center;
+    border-radius: 120px 120px 120px 40px;
+}
+.h2pg{
+    font-size: 20px;
+    color: #000;
+}
+.ppg{
+    width: 400px;
+    margin: 30px;
+}
+.totl{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container{
+    border-radius: 200px 200px 200px 50px;
+    background-color: #e56233;
+    margin-top: 60px;
+    box-shadow: 20px 20px 50px #e56233;
+}
